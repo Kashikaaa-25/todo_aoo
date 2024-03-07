@@ -88,8 +88,8 @@ const page = () => {
           Add Task
         </button>
       </form>
-      <div className="flex justify-center h-screen">
-        <div className="bg-black opacity-90 font-semibold p-8 h-96 w-1/2 text-white rounded-2xl">
+      <div className="flex justify-center h-max">
+        <div className="bg-black opacity-90 font-semibold p-8 w-1/2 text-white rounded-2xl">
           <ul className="text-center">{renderTask}</ul>
         </div>
       </div>
@@ -99,3 +99,4 @@ const page = () => {
 };
 
 export default page;
+0
