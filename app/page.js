@@ -56,6 +56,7 @@ const page = () => {
 
   return (
     <>
+    <div className="box-border m-0 p-0">
       <div className="bg-black h-16">
         <h1 className="text-white font-bold text-center p-4 text-2xl">
           Kashika's TODO List
@@ -91,6 +92,7 @@ const page = () => {
         <div className="bg-black opacity-90 font-semibold p-8 h-96 w-1/2 text-white rounded-2xl">
           <ul className="text-center">{renderTask}</ul>
         </div>
+      </div>
       </div>
     </>
   );
